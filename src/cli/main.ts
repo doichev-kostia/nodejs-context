@@ -10,7 +10,7 @@ program
 		const cli = useCli();
 
 		const passphrase = await cli.prompt(password, {
-			message: "Enter the passcode",
+			message: "Enter the passphrase",
 			mask: true
 		});
 
@@ -30,7 +30,7 @@ program
 		const cli = useCli();
 
 		const passphrase = await cli.prompt(password, {
-			message: "Enter the passcode",
+			message: "Enter the passphrase",
 			mask: true
 		});
 
